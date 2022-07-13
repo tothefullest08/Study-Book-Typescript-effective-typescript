@@ -12,4 +12,3 @@ const bob = {
   occupation: 'JavaScript developer',
 } as Person // No error
 
-export default {}

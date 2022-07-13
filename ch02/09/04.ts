@@ -4,4 +4,4 @@ interface Person {
 const people = ['alice', 'bob', 'jan'].map(name => ({ name }))
 // { name: string; }[]... but we want Person[]
 
-export default {}
+console.log(people);

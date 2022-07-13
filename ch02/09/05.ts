@@ -3,4 +3,4 @@ interface Person {
 }
 const people = ['alice', 'bob', 'jan'].map(name => ({ name } as Person)) // Type is Person[]
 
-export default {}
+console.log(people);
