@@ -25,4 +25,7 @@ function calculateVolume(shape: unknown) {
   }
 }
 
-export default {}
+
+/*
+클래스는 타입으로도 쓰이고, 값으로도 쓰인다.
+ */

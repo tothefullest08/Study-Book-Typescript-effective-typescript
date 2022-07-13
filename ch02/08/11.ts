@@ -27,7 +27,14 @@ function calculateVolume(shape: unknown) {
 const v = typeof Cylinder // Value is "function"
 type T = typeof Cylinder // Type is typeof Cylinder
 const first: Person['first'] = p['first'] // Or p.first
+const first2: Person['first'] = p.first // Or p.first
+
 //    -----                   ---------- Values
 //           ------ ------- Types
 
-export default {}
+ console.log(first, first2);
+
+
+/*
+타입으로 접근할때는 대괄호 표현으로 접근해야함.
+ */

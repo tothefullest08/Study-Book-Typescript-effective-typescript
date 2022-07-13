@@ -5,5 +5,3 @@ interface Person {
 const p: Person = { first: 'Jane', last: 'Jacobs' }
 //    -           --------------------------------- Values
 //       ------ Type
-
-export default {}

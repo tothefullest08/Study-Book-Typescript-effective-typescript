@@ -3,4 +3,7 @@ type T2 = 123
 const v1 = 'string literal'
 const v2 = 123
 
-export default {}
+
+/*
+타입과 값...
+ */

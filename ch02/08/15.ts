@@ -15,4 +15,3 @@ function email({
   /* ... */
 }
 
-export default {}

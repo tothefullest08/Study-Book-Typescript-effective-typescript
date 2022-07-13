@@ -25,8 +25,15 @@ function calculateVolume(shape: unknown) {
   }
 }
 const v = typeof Cylinder // Value is "function"
-type T = typeof Cylinder // Type is typeof Cylinder
-declare let fn: T
-const c = new fn() // Type is Cylinder
 
-export default {}
+type T = typeof Cylinder // Type is typeof Cylinder
+type TT = Cylinder // Type is Cylinder
+/*
+위 두 값은 다르다!!
+ */
+
+const cy: TT = new Cylinder();
+console.log(cy);
+
+declare let fn: T
+// const c = new fn() // Type is Cylinder

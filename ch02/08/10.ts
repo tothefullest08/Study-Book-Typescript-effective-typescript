@@ -27,5 +27,8 @@ function calculateVolume(shape: unknown) {
 const v = typeof Cylinder // Value is "function"
 type T = typeof Cylinder // Type is typeof Cylinder
 type C = InstanceType<typeof Cylinder> // Type is Cylinder
+type CC = InstanceType<T>
 
-export default {}
+const a: CC = new Cylinder();
+
+console.log(a);

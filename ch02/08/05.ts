@@ -12,5 +12,3 @@ function email(p: Person, subject: string, body: string): Response {
   return new Response()
   // END
 }
-
-export default {}
